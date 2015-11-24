@@ -987,7 +987,8 @@ def comenzar_nivel_2():
                         if event.key == pygame.K_r:
                             main()
                         else:
-                            pass 
+                            pass
+                pygame.display.update()
             while raro == True:
                 pantalla.fill(NEGRO)
                 mensaje1(("GANASTE"),BLANCO,220,150)
