@@ -913,7 +913,6 @@ def comenzar_nivel_2():
             escal7.dibujar(pantalla)
             lista_sprites_activos.draw(pantalla)
             lista_de_todos_los_sprites.draw(pantalla)
-            protagonista.colision_escalera(lista_de_escaleras)
             # Limitamos a 60 fps................................................... 
             reloj.tick(60) 
             #produccion de barriles.................................................      
